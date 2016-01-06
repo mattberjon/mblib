@@ -1,0 +1,16 @@
+#N canvas 0 0 638 369 10;
+#X obj 1 1 cnv 15 500 50 empty empty get-button 20 12 0 14 -260097
+-66577 0;
+#X obj 115 84 bng 15 250 50 0 empty empty reset 17 7 0 10 -262144 -1
+-1;
+#X msg 22 82 symbol F11;
+#X obj 22 124 bng 15 250 50 0 empty empty hit 17 7 0 10 -262144 -1
+-1;
+#X text 19 26 Send a unique bang when the right key is hit.;
+#X obj 22 102 get-button F11 1;
+#X text 212 81 Arguments:;
+#X text 213 101 * name of the button on the keyboard \; * block (0)
+or pass (1) at start;
+#X connect 1 0 5 1;
+#X connect 2 0 5 0;
+#X connect 5 0 3 0;

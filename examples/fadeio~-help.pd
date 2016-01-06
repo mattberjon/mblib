@@ -1,0 +1,22 @@
+#N canvas 0 400 638 369 10;
+#X obj 2 1 cnv 15 500 50 empty empty fadeio~ 20 12 0 14 -260097 -66577
+0;
+#X obj 24 142 fadeio~ 10 15 _hann;
+#X floatatom 79 103 5 0 0 1 attack(ms) - -;
+#X floatatom 135 123 5 0 0 1 release(ms) - -;
+#X floatatom 24 83 5 0 0 1 level(dB) - -;
+#X text 21 26 Fade in/out system.;
+#X text 297 80 Arguments:;
+#X text 296 110 fade in: milliseconds \; fade out: milliseconds \;
+type of fade;
+#X text 21 184 Type of fade:;
+#X obj 295 347 fade~;
+#X text 21 214 _lin: linear \; _linsqrt: linear + square root \; _sin:
+sinus \; _sinhann: sinus + hanning \; _hann: hanning;
+#X text 21 346 For more information \, please refer to:;
+#X text 22 285 WARNING!!!;
+#X text 22 305 Depending of the type of fade \, you will have a positive
+or negative gain on your signal.;
+#X connect 2 0 1 1;
+#X connect 3 0 1 2;
+#X connect 4 0 1 0;

@@ -1,0 +1,27 @@
+#N canvas 28 11 503 446 10;
+#X obj -4 1 cnv 15 500 50 empty empty audio-stim 20 12 0 14 -260097
+-66577 0;
+#X text 14 25 Generate audio stimulus properties.;
+#X text 14 193 Arguments:;
+#X text 14 283 Output:;
+#X text 14 213 * duration range: n (ms) \; * duration shift: n (ms)
+\; * center range: n (degrees) \; * center shift: n (degrees) \; *
+back and forth nb: n (times) \;;
+#X obj 17 150 audio-stim 200 0 15 -7.5;
+#X floatatom 17 71 5 0 0 1 speed-deg/s - -;
+#X floatatom 64 91 5 0 0 1 back-forth - -;
+#X floatatom 111 111 5 0 0 1 direction - -;
+#X floatatom 158 131 5 0 0 1 intensity-dB - -;
+#X obj 156 422 get-displacement;
+#X obj 266 422 rand;
+#X text 14 422 This object requires:;
+#X obj 17 170 print;
+#X text 14 303 * center shift (degrees) \; * begining (degrees) \;
+* end (degrees) \; * total displacement (degrees) \; * total duration
+(ms) \; * speed (degrees/s) \; * back and forth \; * direction (1 =
+left to right \, 0 = right to left) \; * intensity (dB);
+#X connect 5 0 13 0;
+#X connect 6 0 5 0;
+#X connect 7 0 5 1;
+#X connect 8 0 5 2;
+#X connect 9 0 5 3;

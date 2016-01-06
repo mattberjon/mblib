@@ -1,0 +1,17 @@
+#N canvas 0 0 450 300 10;
+#X obj 1 2 cnv 15 500 50 empty empty pr-bit 20 12 0 14 -260097 -66577
+0;
+#X text 19 27 Generate a pseudo random bit (0 or 1) and then alternate
+the value.;
+#X obj 22 79 bng 15 250 50 0 empty empty init 17 7 0 10 -262144 -1
+-1;
+#X obj 55 95 bng 15 250 50 0 empty empty next 17 7 0 10 -262144 -1
+-1;
+#X floatatom 22 134 5 0 0 0 - - -;
+#X obj 55 135 bng 15 250 50 0 empty empty done 17 7 0 10 -262144 -1
+-1;
+#X obj 22 113 pr-bit;
+#X connect 2 0 6 0;
+#X connect 3 0 6 1;
+#X connect 6 0 4 0;
+#X connect 6 1 5 0;

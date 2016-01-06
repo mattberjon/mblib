@@ -1,0 +1,13 @@
+#N canvas 0 0 638 369 10;
+#X obj 2 -1 cnv 15 500 50 empty empty playfile~ 20 12 0 14 -260097
+-66577 0;
+#X obj 22 130 playfile~;
+#X msg 22 90 /home/user/music.txt;
+#X obj 73 112 bng 15 250 50 0 empty empty play 17 7 0 10 -262144 -1
+-1;
+#X obj 73 152 bng 15 250 50 0 empty empty done 17 7 0 10 -262144 -1
+-1;
+#X text 21 24 Wave file player.;
+#X connect 1 1 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 1;
