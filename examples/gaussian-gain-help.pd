@@ -1,0 +1,14 @@
+#N canvas 0 0 638 769 10;
+#X obj 1 1 cnv 15 500 50 empty empty gaussian-gain 20 12 0 14 -260097
+-66577 0;
+#X obj 22 112 gaussian-gain 8.5;
+#X floatatom 121 93 5 0 0 1 source-width - -;
+#X floatatom 22 93 5 0 0 2 spk-position - -;
+#X floatatom 22 133 5 0 0 0 - - -;
+#X text 305 88 Arguments:;
+#X text 306 108 source width (in degrees);
+#X text 19 26 Compute the gain to apply to a speaker depending of source
+size.;
+#X connect 1 0 4 0;
+#X connect 2 0 1 1;
+#X connect 3 0 1 0;

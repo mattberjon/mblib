@@ -1,0 +1,18 @@
+#N canvas 0 0 638 769 10;
+#X obj 1 2 cnv 15 500 50 empty empty bird-conv-pos 20 12 0 14 -260097
+-66577 0;
+#X floatatom 21 142 5 0 0 3 z_azi - -;
+#X floatatom 58 142 5 0 0 3 y_ele - -;
+#X floatatom 96 142 5 0 0 3 x_rol - -;
+#X text 19 236 see also:;
+#X text 19 26 convert raw angle in readable format (degrees).;
+#X obj 21 122 bird-conv-ang;
+#X obj 21 262 bird-ctl;
+#X obj 83 262 serial-ctl;
+#X obj 157 262 bird-raw-pos-ang;
+#X obj 277 262 bird-conv-pos;
+#X msg 21 102 angular raw data;
+#X connect 6 0 1 0;
+#X connect 6 1 2 0;
+#X connect 6 2 3 0;
+#X connect 11 0 6 0;

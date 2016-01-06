@@ -1,0 +1,21 @@
+#N canvas 0 0 507 316 10;
+#X obj 2 0 cnv 15 500 50 empty empty cmp-gate 20 12 0 14 -260097 -66577
+0;
+#X floatatom 23 92 5 0 0 1 data - -;
+#X floatatom 63 112 5 0 0 1 lower-bound - -;
+#X floatatom 104 132 5 0 0 1 higher-bound - -;
+#X floatatom 23 212 5 0 0 0 - - -;
+#X floatatom 63 192 5 0 0 0 - - -;
+#X floatatom 104 172 5 0 0 0 - - -;
+#X text 20 24 Comparative gate using 2 boundaries.;
+#X text 295 95 Arguments:;
+#X text 296 115 * lower bound: n \; * higher bound: n;
+#X text 295 155 Output:;
+#X obj 23 151 cmp-gate 10 20;
+#X text 295 175 * lower values \; * mid values \; * higher values;
+#X connect 1 0 11 0;
+#X connect 2 0 11 1;
+#X connect 3 0 11 2;
+#X connect 11 0 4 0;
+#X connect 11 1 5 0;
+#X connect 11 2 6 0;
