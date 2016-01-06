@@ -1,0 +1,18 @@
+#N canvas 0 0 638 769 10;
+#X obj 6 3 cnv 15 500 50 empty empty bird-raw-pos-ang 20 12 0 14 -260097
+-66577 0;
+#X text 24 27 extract position and angle (raw information) from a raw
+bird flow;
+#X text 299 64 inlet:;
+#X text 298 84 raw bird data flow (6 floats);
+#X text 299 114 outlets:;
+#X text 298 134 raw position (3 floats) \; raw angle (3 floats);
+#X text 24 237 see also:;
+#X text 299 165 position float order:;
+#X text 298 185 x \; y \; z;
+#X text 299 225 angle float order:;
+#X text 299 245 z_ang (azimuth) \; y_ang (elevation) \; x_ang (roll)
+;
+#X obj 90 254 serial-ctl;
+#X obj 27 254 bird-ctl;
+#X obj 27 124 bird-raw-pos-ang;

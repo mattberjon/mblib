@@ -1,0 +1,182 @@
+2013-03-15 15:25 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (0e6925bcf3e4 [tip])
+
+	* BUGS, INSTALL:
+	Adding of some comment about the Makefile problem in BUGS and
+	INSTALL files
+
+2013-03-14 16:48 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (21961463ba00)
+
+	* examples/audio-stim-help.pd, examples/staircase-help.pd:
+	Update of some help files
+
+2013-03-14 12:24 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (36489f8fd194)
+
+	* abs/pr-bit.pd, abs/vumeter~.pd, examples/pr-bit-help.pd,
+	examples/vumeter~-help.pd: new file.
+	* abs/pr-bit.pd, abs/vumeter~.pd, doc/index.mkd, examples/pr-bit-
+	help.pd, examples/vumeter~-help.pd:
+	Adding of two new abstractions and update of the documentation
+
+	* vumeter~: visualise the dBfs level of a signal
+	* pr-bit: pseudo random bit generation (random at the initialisation
+	and then alternated)
+
+2013-03-14 09:04 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (3a7ef11b6bb6)
+
+	* Makefile:
+	Makefile update
+
+	nothing really interesting yet, just adding of some new path
+	variable
+
+2013-03-13 15:47 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (273fac373556)
+
+	* abs/stimulus-position.pd, examples/cmp-gate-help.pd, examples
+	/stimulus-position-help.pd:
+	Help file update and stimulus-position abstraction working
+
+	* help file update
+	* stimulus-position: now the abstraction is fully working with all
+	options
+
+2013-03-13 13:29 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (7b98783ac30d)
+
+	* Makefile, abs/audio-stim.pd, abs/cmp-gate.pd, abs/get-
+	displacement.pd, abs/stimulus-position.pd, examples/audio-stim-
+	help.pd, examples/cmp-gate-help.pd, examples/get-displacement-
+	help.pd, examples/stimulus-position-help.pd:
+	Update Makefile and permission rights
+
+	* Makefile: just a beginnin
+	* Right permission: set to 644 all the pd files (I don't understand
+	why Windows want these file as executable, it is useless)
+
+2013-03-12 17:37 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (a99a0cef69c9)
+
+	* abs/audio-stim.pd, abs/cmp-gate.pd, abs/get-displacement.pd, abs
+	/stimulus-position.pd, examples/audio-stim-help.pd, examples/cmp-
+	gate-help.pd, examples/get-displacement-help.pd, examples/stimulus-
+	position-help.pd: new file.
+	* abs/audio-stim.pd, abs/bandpass~.pd, abs/cmp-gate.pd, abs/get-
+	displacement.pd, abs/master24~.pd, abs/partconv-im~.pd, abs
+	/stimulus-position.pd, doc/index.mkd, examples/audio-stim-help.pd,
+	examples/cmp-gate-help.pd, examples/fadeio~-help.pd, examples/get-
+	displacement-help.pd, examples/partconv-im~-help.pd, examples
+	/stimulus-position-help.pd:
+	Adding of new abstractions and bug fix
+
+	* bandpass~: bug fix on the bypass option
+	* master24~: change of the window type on the fade (use of a linear in
+	order to preserve the gain on each channel.
+	* partconv-im~: bug fix on the bypass (it is important to start the
+	DSP after the loading of the filters...)
+	* update of the documentation
+
+2013-03-12 09:41 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (22fe6e4d6d0b)
+
+	* abs/playfile~.pd, examples/playfile~-help.pd: new file.
+	* abs/playfile~.pd, doc/index.mkd, examples/playfile~-help.pd:
+	Adding of playfile~ abstraction
+
+	* update of the documentation
+
+2013-03-12 09:23 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (4dad855871cf)
+
+	* .hgtags, ChangeLog, VERSION, abs/bandpass24~.pd, abs/bandpass~.pd,
+	abs/fadeio~.pd, abs/gaussian-gain.pd, abs/gaussian-spat24.pd, abs
+	/get-button.pd, abs/master24~.pd, abs/motion24~.pd, abs/partconv-
+	im~.pd, abs/spectral-corr24~.pd, examples/bandpass24~-help.pd,
+	examples/bandpass~-help.pd, examples/fadeio~-help.pd, examples
+	/gaussian-gain-help.pd, examples/gaussian-spat24-help.pd, examples
+	/get-button-help.pd, examples/master24~-help.pd,
+	examples/motion24~-help.pd, examples/partconv-im~-help.pd, examples
+	/spectral-corr24~-help.pd: new file.
+	* Merge
+
+2013-03-05 18:15 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (cd6c532c15f6 <stable>)
+
+	* abs/bandpass24~.pd, abs/bandpass~.pd, abs/fadeio~.pd, abs/gaussian-
+	gain.pd, abs/gaussian-spat24.pd, abs/get-button.pd,
+	abs/master24~.pd, abs/motion24~.pd, abs/partconv-im~.pd, abs
+	/spectral-corr24~.pd, examples/bandpass24~-help.pd,
+	examples/bandpass~-help.pd, examples/fadeio~-help.pd, examples
+	/gaussian-gain-help.pd, examples/gaussian-spat24-help.pd, examples
+	/get-button-help.pd, examples/master24~-help.pd,
+	examples/motion24~-help.pd, examples/partconv-im~-help.pd, examples
+	/spectral-corr24~-help.pd: new file.
+	* abs/bandpass24~.pd, abs/bandpass~.pd, abs/fadeio~.pd, abs/gaussian-
+	gain.pd, abs/gaussian-spat24.pd, abs/get-button.pd,
+	abs/master24~.pd, abs/motion24~.pd, abs/partconv-im~.pd, abs
+	/spectral-corr24~.pd, doc/index.mkd, examples/bandpass24~-help.pd,
+	examples/bandpass~-help.pd, examples/fadeio~-help.pd, examples
+	/gaussian-gain-help.pd, examples/gaussian-spat24-help.pd, examples
+	/get-button-help.pd, examples/master24~-help.pd,
+	examples/motion24~-help.pd, examples/partconv-im~-help.pd, examples
+	/spectral-corr24~-help.pd:
+	Adding of abstractions related to audio and audio motion
+
+	* adding of a series of abstractions
+	* Documentation update
+
+2013-03-03 19:22 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (3c9b8b20c513 <stable>)
+
+	* VERSION: new file.
+	* VERSION:
+	Adding of a version file
+
+2013-03-03 18:53 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (98e21aa9b670 <stable>)
+
+	* ChangeLog: new file.
+	* ChangeLog:
+	ChangeLog update
+
+2013-03-03 18:24 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (5700ec1e7d8d <stable>)
+
+	* .hgtags:
+	Added tag 0.1 for changeset 732e68443ce9
+
+2013-03-03 18:24 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (732e68443ce9 [0.1] <stable>)
+
+	* .hgtags:
+	Removed tag v0.1
+
+2013-03-03 18:15 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (daa2ab97169f <stable>)
+
+	* .hgtags: new file.
+	* .hgtags:
+	Added tag v0.1 for changeset 8a6238914dc1
+
+2013-03-03 17:56 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (8a6238914dc1 <stable>)
+
+	* Create of a stable branch
+
+2013-03-03 17:02 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (f8529a18819e)
+
+	* doc/index.mkd: new file.
+	* INSTALL, LICENSE, README, doc/index.mkd:
+	Update of licence, readme and install file. Adding of the
+	documentation
+
+2013-03-03 14:06 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (510f9fc73a33)
+
+	* BUGS, INSTALL, LICENSE, Makefile, README, TODO, abs/bird-conv-
+	ang.pd, abs/bird-conv-pos.pd, abs/bird-ctl.pd, abs/bird-raw-pos-
+	ang.pd, abs/in2cm.pd, abs/mute24~.pd, abs/noise24~.pd,
+	abs/percentage.pd, abs/rand.pd, abs/serial-ctl.pd, examples/bird-
+	conv-ang-help.pd, examples/bird-conv-pos-help.pd, examples/bird-ctl-
+	help.pd, examples/bird-raw-pos-ang-help.pd, examples/in2cm-help.pd,
+	examples/mute24~-help.pd, examples/noise24~-help.pd, examples
+	/percentage-help.pd, examples/rand-help.pd, examples/serial-ctl-
+	help.pd, examples/staircase-help.pd, mblib-meta.pd, src/staircase.c:
+	new file.
+	* BUGS, INSTALL, LICENSE, Makefile, README, TODO, abs/bird-conv-
+	ang.pd, abs/bird-conv-pos.pd, abs/bird-ctl.pd, abs/bird-raw-pos-
+	ang.pd, abs/in2cm.pd, abs/mute24~.pd, abs/noise24~.pd,
+	abs/percentage.pd, abs/rand.pd, abs/serial-ctl.pd, examples/bird-
+	conv-ang-help.pd, examples/bird-conv-pos-help.pd, examples/bird-ctl-
+	help.pd, examples/bird-raw-pos-ang-help.pd, examples/in2cm-help.pd,
+	examples/mute24~-help.pd, examples/noise24~-help.pd, examples
+	/percentage-help.pd, examples/rand-help.pd, examples/serial-ctl-
+	help.pd, examples/staircase-help.pd, mblib-meta.pd, src/staircase.c:
+	First commit of the mblib
+

@@ -1,0 +1,42 @@
+# Important note
+
+At the moment the current makefile does not work properly and will be corrected
+reallt soon.
+
+# Linux
+
+In order to compile and install this library you will need:
+
+* gcc >= 4.7.1
+* gnu-make >= 3.82
+* Pure Data >= 0.45
+
+To compile the library:
+
+~~~.{bash}
+make
+make install
+~~~
+
+All file will be added to you default Pure Data external folder ~/pdextended.
+
+# Windows
+
+In order to compile under windows, you will need:
+
+* Mingw 
+* Pure Data >= 0.45
+
+To compile the library:
+
+~~~.{bash}
+mingw32-make
+mingw32-make install
+~~~
+
+All files will be install for the current user in %%application_data%%
+
+
+# MacOs
+
+The Makefile does'nt take into account MacOs compilation at the moment.

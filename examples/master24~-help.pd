@@ -1,0 +1,18 @@
+#N canvas 0 0 638 369 10;
+#X obj -2 -2 cnv 15 500 50 empty empty master24~ 20 12 0 14 -260097
+-66577 0;
+#X floatatom 309 60 5 0 0 1 level(dB) - -;
+#X obj 19 119 master24~ 10 15 _hann -------------------------------
+;
+#X obj 19 149 master24~ 10 15 _hann;
+#X text 16 23 24 channels master with a fade in/out manager.;
+#X floatatom 321 80 5 0 0 1 attack(ms) - -;
+#X floatatom 334 100 5 0 0 1 release(ms) - -;
+#X text 16 251 This object requires:;
+#X obj 18 277 fadeio~;
+#X text 16 181 For more information about the fade manager type of
+window \, please refer to:;
+#X obj 19 211 fadeio~;
+#X connect 1 0 2 24;
+#X connect 5 0 2 25;
+#X connect 6 0 2 26;
