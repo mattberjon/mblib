@@ -1,6 +1,0 @@
-#N canvas 0 0 638 369 10;
-#X obj -4 -4 inlet inches;
-#X obj -4 36 outlet centimeters;
-#X obj -4 16 * 2.54;
-#X connect 0 0 2 0;
-#X connect 2 0 1 0;

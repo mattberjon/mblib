@@ -1,5 +1,0 @@
-* check all help files in order to correct the titles using underscore and change
-  them into hyphens.
-* test bird-conv-pos in order to see if conversion parameter works well
-* create a nnoise~ external that take the number of outputs
-* create a nmute~ external that take the number of outputs
