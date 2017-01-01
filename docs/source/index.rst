@@ -1,14 +1,14 @@
-.. MbLib documentation master file, created by
+.. Pd-motion documentation master file, created by
    sphinx-quickstart on Sat Dec 31 17:26:57 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to MbLib
-================
+Welcome to Pd-Motion
+====================
 
-MbLib is a set of abstractions for `Pure Data`_ that helps to manipulate the
-spatialisation of audio streams and handle head tracking data coming from a
-Flock of Bird.
+Pd-motion (formely MbLib) is a set of abstractions for `Pure Data`_ that helps
+to manipulate the spatialisation of audio streams and handle head tracking data
+coming from a Flock of Bird.
 
 This project has been developed within the Action and Perception group of the
 school of Psychology at Cardiff University. A new audiovisual lab has been
