@@ -39,6 +39,8 @@ In order to compile and install this library you will need:
 
 To compile the library:
 
+.. code-block:: bash
+
   make
   make install
 
@@ -53,6 +55,8 @@ In order to compile under windows, you will need:
 - Pure Data >= 0.45
 
 To compile the library:
+
+.. code-block:: bash
 
   mingw32-make
   mingw32-make install
