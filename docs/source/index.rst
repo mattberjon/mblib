@@ -31,6 +31,6 @@ Please, download it, study it, improve it and share it!
    :maxdepth: 2
 
    install
-   abstractions
+   abs
 
 .. _Pure Data: http://puredata.info

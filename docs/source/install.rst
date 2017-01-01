@@ -1,11 +1,19 @@
 Installation
 ============
 
+I invite you to use PdExtended rather than the vanilla version of Pure Data. 
+For the compilation it won't have any impact (as it uses the same library
+pdlib.h) but at least you'll have all the integrated other libraries on which
+some abstractions are relying on.
+
 Important note
 --------------
 
 At the moment the current makefile does not work properly and will be corrected
 really soon.
+
+Compilation of the external
+---------------------------
 
 Linux
 ^^^^^
@@ -43,6 +51,7 @@ MacOs
 
 The Makefile does'nt take into account MacOs compilation at the moment.
 
+Installation of abstraction
 License
 -------
 

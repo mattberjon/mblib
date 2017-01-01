@@ -1,8 +1,11 @@
-Abstraction documentation
-=========================
+Abstraction and externals documentation
+=======================================
+
+Abstractions
+------------
 
 Audio
------
+^^^^^
 
 **audio-stim**
   Generate audio stimulus properties.
@@ -55,7 +58,7 @@ Audio
   GUI object displaying the level in dBfs (full scale) of an audio signal.
 
 Head tracking (Flock of Bird)
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **bird-conv-ang**
   Conversion of an angular Flock of Bird raw data flow in azimuth, elevation and
@@ -73,7 +76,7 @@ Head tracking (Flock of Bird)
   position, one for angles.
 
 Miscellaneous
--------------
+^^^^^^^^^^^^^
 
 **cmp-gate**
   Comparative gate using 2 boundaries.
@@ -101,3 +104,8 @@ Miscellaneous
   Superior layer to comport in order to open/close, specify a baud rate for the
   serial port.
 
+Externals
+---------
+
+**staircase**
+  Staircase method.
