@@ -1,3 +1,34 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/) 
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased]
+### Added
+- zh-CN and zh-TW translations from @tianshuo.
+- de translation from @mpbzh.
+- it-IT translation from @roalz.
+- sv translation from @magol.
+- tr-TR translation from @karalamalar.
+
+### Changed
+- Start versioning based on the current English version at 0.3.0 to help
+translation authors keep things up-to-date.
+
+## [1.0.3] - 2016-01-01
+### Added
+
+- Documentation update using Sphinx
+
+### Changed
+
+- README file
+
+## [1.0.2] - 2016-01-06
+
+Old changelog way (coming from Git).
+
 2013-03-15 15:25 +0000  Matthieu Berjon  <matthieu.berjon@wavefield.fr>  (0e6925bcf3e4 [tip])
 
 	* BUGS, INSTALL:
