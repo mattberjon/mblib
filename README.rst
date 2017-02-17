@@ -1,6 +1,10 @@
 Pd-motion
 =========
 
+.. image:: https://readthedocs.org/projects/pd-motion/badge/?version=latest
+        :target: https://pd-motion.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
 This project (formely mblib) has been developed within the Action and
 Perception group of the school of Psychology at Cardiff University. A new
 audiovisual lab has been created and needed a bit of code in order to be able
