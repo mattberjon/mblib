@@ -12,6 +12,20 @@ Important note
 At the moment the current makefile does not work properly and will be corrected
 really soon.
 
+Dependencies
+------------
+
+In order to work properly, the library relies on several other 3rd party
+objects. In order to avoid any issues it is recommended to install the extended
+version of Pure Data called `Purr-Data`_. If you use the Vanilla version, you
+will need to installa the following libraries before installing this one.
+
+- `IEMLib`_
+- `Cyclone`_
+- `list-abs`_
+- `bsaylor`_
+- `cxc`_
+- `comport`_
 
 Setup of the abstractions
 -------------------------
@@ -102,3 +116,10 @@ Please document as much as possible the steps to reproduce your problem
 
 .. _simplified Github workflow: http://scottchacon.com/2011/08/31/github-flow.html
 .. _project: https://github.com/mattberjon/mblib/issues
+.. _Purr-Data: https://github.com/agraef/purr-data
+.. _IEMLib: https://puredata.info/downloads/iemlib
+.. _Cyclone: https://github.com/porres/pd-cyclone
+.. _list-abs: https://svn.code.sf.net/p/pure-data/svn/trunk/abstractions/footils/list-abs/
+.. _bsaylor: https://svn.code.sf.net/p/pure-data/svn/trunk/externals/bsaylor/
+.. _cxc: https://svn.code.sf.net/p/pure-data/svn/trunk/externals/cxc/
+.. _comport: https://git.iem.at/pd/comport
