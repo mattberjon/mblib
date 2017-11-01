@@ -1,5 +1,5 @@
-.. Pd-motion documentation master file, created by
-   sphinx-quickstart on Sat Dec 31 17:26:57 2016.
+.. Pd-Motion documentation master file, created by
+   sphinx-quickstart on Wed Nov  1 21:52:15 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -25,12 +25,13 @@ tracker, basic filtering, spatialisation, a staircase method and so on. All the
 objects are supposed to be as generic as possible and should be usable outside
 of its main purpose in the lab.
 
-Please, download it, study it, improve it and share it!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
    install
    abs
+
 
 .. _Pure Data: http://puredata.info
